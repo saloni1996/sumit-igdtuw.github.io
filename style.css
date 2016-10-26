@@ -81,7 +81,6 @@ body {
 }
 
 #wrapper {
-	background: #000000;
 	width: 658px;
 }
 
@@ -99,29 +98,26 @@ a:hover {
 
 /* navigation */
 
-#nav {
-	position: absolute;
-	top: 15px;
-	right: 0;
-	width: 31em;
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
 }
 
-#nav li {
-	width: 7em;
-	float: left;
-	margin: 0 0.3em;
-	padding: 0;
+#nav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 
-#nav a {
-	color: #fff;
-	font-weight: bold;
-	text-decoration: none;
-	padding: 4px 0;
-	display: block;
-	text-align: center;
+/* Change the link color on hover */
+#nav li a:hover {
+    background-color: #555;
+    color: white;
 }
-
 #nav a:hover {
 	text-decoration: underline;
 }
